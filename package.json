@@ -1,0 +1,28 @@
+{
+  "name": "robot-kids",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Game edukasi interaktif seru untuk memperkenalkan dunia robotika, komponen robot, dan coding logika kepada anak-anak",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.72.0",
+    "next": "16.4.6",
+    "postcss": "^8.5.32",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}
